@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <title>Lore &amp; Wiki · Call of the Netherdeep Vault</title>
+  <title>Downloads · Call of the Netherdeep Vault</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -34,33 +34,44 @@
 
   <main class="wrap site-main">
     <div class="section-head">
-      <p class="eyebrow">The World</p>
-      <h1>Lore &amp; Wiki</h1>
-      <p>The gods, the history, and the powers of Exandria. Knowledge the party has earned.</p>
+      <p class="eyebrow">Resource Library</p>
+      <h1>Downloads</h1>
+      <p>Maps, character sheets, and handouts to save or print. Click <strong>Download</strong> on any item.</p>
     </div>
 
-    <div class="grid">
+    <!--
+      ===========================================================================
+      TO ADD A DOWNLOAD:
+      1. Put the file in the  downloads  folder (e.g. downloads/character-sheet.pdf).
+      2. Copy one <li class="download"> block below and edit four things:
+           - the type badge (PDF, JPG, DOCX, ZIP, …)
+           - the title and description
+           - the file name in  href="downloads/your-file.pdf"
+           - the saved name in  download="A Nice Name.pdf"   (optional)
+      Keep each file under 100 MB.
+      ===========================================================================
+    -->
+    <ul class="downloads">
 
-      <!-- ===== TO ADD A LORE PAGE: copy one card block (from <a> to </a>) and edit it. ===== -->
-      <a class="card" href="lore/introduction.html">
-        <p class="eyebrow">Start Here</p>
-        <h3>An Introduction to Exandria</h3>
-        <p>The gods, the Calamity, and the drowned prison beneath the sea that gives our campaign its name.</p>
-      </a>
+      <li class="download">
+        <span class="dl-type">SVG</span>
+        <div class="dl-body">
+          <h3>Map of Exandria</h3>
+          <p>The known world &mdash; Wildemount, Marquet, and the Netherdeep trench between them. Good for printing or zooming in.</p>
+        </div>
+        <a class="dl-btn" href="downloads/map-exandria.svg" download="Exandria-Map.svg">Download</a>
+      </li>
 
-      <a class="card" href="lore/the-calamity.html">
-        <p class="eyebrow">History</p>
-        <h3>The Calamity &amp; the Apotheon</h3>
-        <p>The war that broke the world, and the mortal hero whose fall left a wound in the deep.</p>
-      </a>
+      <li class="download">
+        <span class="dl-type">TXT</span>
+        <div class="dl-body">
+          <h3>Session Notes Sheet</h3>
+          <p>A blank, printable template for jotting down what happened each game night.</p>
+        </div>
+        <a class="dl-btn" href="downloads/session-notes-sheet.txt" download="Session-Notes-Sheet.txt">Download</a>
+      </li>
 
-      <a class="card" href="lore/factions.html">
-        <p class="eyebrow">Factions</p>
-        <h3>Powers of Exandria</h3>
-        <p>The crews and consortiums racing for the Netherdeep's secrets — their crests, seats, and agents.</p>
-      </a>
-
-    </div>
+    </ul>
   </main>
 
   <footer class="site-footer">
