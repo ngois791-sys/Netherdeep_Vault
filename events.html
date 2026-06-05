@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Timeline · Call of the Netherdeep Vault</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">&#9670;</span><span class="brand-text">The Netherdeep Vault</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.body.classList.toggle('nav-open')">&#9776;</button>
+      <nav class="site-nav">
+        <a href="lore.html">Lore</a>
+        <a href="sessions.html">Sessions</a>
+        <a href="npcs.html">NPCs</a>
+        <a href="characters.html">Party</a>
+        <a href="events.html">Timeline</a>
+        <a href="maps.html">Maps</a>
+        <a href="tags.html">Tags</a>
+      </nav>
+      <div class="site-search">
+        <input type="search" id="site-search" autocomplete="off" placeholder="Search the Vault" aria-label="Search the Vault">
+        <div id="search-results" class="search-results" hidden></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap site-main">
+    <div class="section-head">
+      <p class="eyebrow">History</p>
+      <h1>Timeline</h1>
+      <p>The history of Exandria, from the age of gods to the present day. Dates are counted relative to <strong>Year 0</strong>, the start of our campaign. Oldest at the top.</p>
+    </div>
+
+    <!--
+      Each <li> below is one era. To add an event, find the right era and add a
+      bullet to its <ul>, or copy a whole <li> block to make a new era.
+      Mark the present-day entry with  class="is-now"  for the highlighted dot.
+    -->
+    <ul class="timeline">
+
+      <li>
+        <h3>The Founding &mdash; Times Unknown</h3>
+        <ul>
+          <li>The Primordials shape the raw world. The gods arrive from beyond and remake it, and the first mortal races are born.</li>
+          <li>The Founding War rages between the gods and the Primordials, scarring the land before an uneasy order is won.</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>The Age of Arcanum</h3>
+        <ul>
+          <li>Mortal mages reach heights of power rivaling the gods themselves, raising floating cities and rewriting the laws of magic.</li>
+          <li>Alyxian is born a mortal hero, blessed by the gods and beloved of his people, a champion against the rising darkness.</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>The Calamity</h3>
+        <ul>
+          <li>The Betrayer Gods break free and war engulfs the world. Cities fall from the sky; nations are unmade in fire.</li>
+          <li>Alyxian's people die despite his prayers. In grief and pride he claims their faith for himself and ascends as the Apotheon.</li>
+          <li>The gods cast Alyxian down into the Lucidian Ocean, sealing him in the lightless trench that mortals would later name the Netherdeep.</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>The Divergence</h3>
+        <ul>
+          <li>The Calamity ends. The gods withdraw behind the Divine Gate, never again to walk the world directly.</li>
+          <li>The age of empires gives way to the slow rebuilding of the mortal nations.</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>~30 years before</h3>
+        <ul>
+          <li>Trade between Marquet and Wildemount swells. Ank'Harel becomes a city of consortiums, scholars, and relic-hunters.</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>~5 years before</h3>
+        <ul>
+          <li>Strange tides and stranger dreams begin to trouble the fishing town of Jigow on the Greying Wildlands.</li>
+          <li>Ruidus, the red moon, burns a little brighter in the night sky. The faithful and the fearful both take notice.</li>
+        </ul>
+      </li>
+
+      <li class="is-now">
+        <span class="t-date">The present day</span>
+        <h3>Year 0 &mdash; Campaign Start</h3>
+        <ul>
+          <li>The Festival of Merit opens in Jigow, drawing crowds, contestants, and more than a few outsiders.</li>
+          <li>The party is thrown together by the festival's contests and a shared, sourceless dream of black water.</li>
+          <li>In the Emerald Grotto they find a relic that hums against the skin &mdash; and far below, something answers.</li>
+        </ul>
+      </li>
+
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>The Netherdeep Vault &mdash; A Campaign Companion</p>
+      <p class="muted">Compiled by the Keeper of the Vault. For the eyes of our table.</p>
+    </div>
+  </footer>
+
+  <script>var SITE_BASE = "";</script>
+  <script src="assets/site-data.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

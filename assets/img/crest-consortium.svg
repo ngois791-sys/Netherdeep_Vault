@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" width="220" height="260" role="img" aria-label="Crest of the Consortium">
+  <defs>
+    <linearGradient id="sh2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f181a"/>
+      <stop offset="100%" stop-color="#100b0d"/>
+    </linearGradient>
+  </defs>
+  <path d="M110 12 L196 44 V128 q0 78 -86 116 Q24 206 24 128 V44 Z" fill="url(#sh2)" stroke="#b3122a" stroke-width="4"/>
+  <path d="M110 24 L184 52 V126 q0 68 -74 102 Q36 194 36 126 V52 Z" fill="none" stroke="#2c2427" stroke-width="2"/>
+  <!-- scales -->
+  <line x1="110" y1="74" x2="110" y2="150" stroke="#c2c6cf" stroke-width="4"/>
+  <line x1="64" y1="92" x2="156" y2="92" stroke="#c2c6cf" stroke-width="4"/>
+  <circle cx="110" cy="70" r="6" fill="#e2425a"/>
+  <path d="M64 92 q-14 26 0 26 q14 0 0 -26" fill="none" stroke="#c2c6cf" stroke-width="3"/>
+  <path d="M50 118 q14 16 28 0" fill="none" stroke="#c2c6cf" stroke-width="3"/>
+  <path d="M156 92 q-14 26 0 26 q14 0 0 -26" fill="none" stroke="#c2c6cf" stroke-width="3"/>
+  <path d="M142 118 q14 16 28 0" fill="none" stroke="#c2c6cf" stroke-width="3"/>
+  <rect x="92" y="150" width="36" height="6" fill="#c2c6cf"/>
+  <text x="110" y="186" fill="#c2c6cf" font-family="Cinzel, Georgia, serif" font-size="13" letter-spacing="2" text-anchor="middle">CONSORTIUM</text>
+</svg>

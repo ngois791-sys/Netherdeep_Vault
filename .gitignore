@@ -1,0 +1,12 @@
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / tooling local state
+.claude/settings.local.json
+
+# Temp files from site building (safe to ignore)
+_reference_*
+_ref_*

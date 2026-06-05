@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" width="220" height="260" role="img" aria-label="Crest of the Library of the Cobalt Soul">
+  <defs>
+    <linearGradient id="sh3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f181a"/>
+      <stop offset="100%" stop-color="#100b0d"/>
+    </linearGradient>
+  </defs>
+  <path d="M110 12 L196 44 V128 q0 78 -86 116 Q24 206 24 128 V44 Z" fill="url(#sh3)" stroke="#b3122a" stroke-width="4"/>
+  <path d="M110 24 L184 52 V126 q0 68 -74 102 Q36 194 36 126 V52 Z" fill="none" stroke="#2c2427" stroke-width="2"/>
+  <!-- open book -->
+  <path d="M110 80 q-22 -12 -46 -8 V146 q24 -4 46 8 Z" fill="#0d0a0b" stroke="#c2c6cf" stroke-width="3"/>
+  <path d="M110 80 q22 -12 46 -8 V146 q-24 -4 -46 8 Z" fill="#0d0a0b" stroke="#c2c6cf" stroke-width="3"/>
+  <line x1="110" y1="80" x2="110" y2="154" stroke="#c2c6cf" stroke-width="3"/>
+  <g stroke="#7e7a80" stroke-width="2">
+    <line x1="74" y1="96" x2="100" y2="92"/>
+    <line x1="74" y1="110" x2="100" y2="106"/>
+    <line x1="146" y1="96" x2="120" y2="92"/>
+    <line x1="146" y1="110" x2="120" y2="106"/>
+  </g>
+  <circle cx="110" cy="70" r="6" fill="#e2425a"/>
+  <text x="110" y="186" fill="#c2c6cf" font-family="Cinzel, Georgia, serif" font-size="15" letter-spacing="3" text-anchor="middle">COBALT</text>
+</svg>

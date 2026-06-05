@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Maps &amp; Handouts · Call of the Netherdeep Vault</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">&#9670;</span><span class="brand-text">The Netherdeep Vault</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.body.classList.toggle('nav-open')">&#9776;</button>
+      <nav class="site-nav">
+        <a href="lore.html">Lore</a>
+        <a href="sessions.html">Sessions</a>
+        <a href="npcs.html">NPCs</a>
+        <a href="characters.html">Party</a>
+        <a href="events.html">Timeline</a>
+        <a href="maps.html">Maps</a>
+        <a href="tags.html">Tags</a>
+      </nav>
+      <div class="site-search">
+        <input type="search" id="site-search" autocomplete="off" placeholder="Search the Vault" aria-label="Search the Vault">
+        <div id="search-results" class="search-results" hidden></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap site-main">
+    <div class="section-head">
+      <p class="eyebrow">Handouts</p>
+      <h1>Maps &amp; Handouts</h1>
+      <p>Maps, letters, and other things the party has gathered. Click any image to open it full size.</p>
+    </div>
+
+    <div class="gallery">
+
+      <!--
+        TO ADD A MAP OR HANDOUT:
+        1. Put the image file in the  maps  folder (e.g. maps/jigow.jpg).
+        2. Copy one <figure> block below and change the two file names and the caption.
+      -->
+      <figure>
+        <a href="maps/map-exandria.svg"><img src="maps/map-exandria.svg" alt="Map of Exandria — Wildemount and Marquet"></a>
+        <figcaption><strong>Exandria &mdash; The Known World</strong> &mdash; the continents of Wildemount and Marquet, divided by the Lucidian Ocean and the trench beneath it. Click to enlarge. <em>(Sample placeholder image &mdash; drop your own map here.)</em></figcaption>
+      </figure>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>The Netherdeep Vault &mdash; A Campaign Companion</p>
+      <p class="muted">Compiled by the Keeper of the Vault. For the eyes of our table.</p>
+    </div>
+  </footer>
+
+  <script>var SITE_BASE = "";</script>
+  <script src="assets/site-data.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
