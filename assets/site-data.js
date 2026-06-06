@@ -37,6 +37,20 @@ const SITE_PAGES = [
     summary: "The factions racing for the Netherdeep's secrets — their crests, seats of power, and known agents.",
     tags: ["Factions", "Ank'Harel"]
   },
+  {
+    title: "Locations of Interest",
+    url: "lore/locations-of-interest.html",
+    section: "Lore",
+    summary: "A gazetteer of notable places across Xhorhas — Jigow, the Wastes, Barbed Fields, Bazzoxan, and Rosohna.",
+    tags: ["Xhorhas", "Kryn Dynasty", "Luxon", "Calamity", "Betrayer Gods", "Rosohna", "Bazzoxan", "Aurora Watch", "Verin Theyless", "Bright Queen"]
+  },
+  {
+    title: "Xhorhas History & Mythology",
+    url: "lore/history-mythology.html",
+    section: "Lore",
+    summary: "The making of Exandria — the Prime Deities and Betrayer Gods, the Calamity, the Divergence, and the divine relics and moons tied to them.",
+    tags: ["Prime Deities", "Betrayer Gods", "Calamity", "Divergence", "Wastes of Xhorhas", "Barbed Fields", "Bazzoxan", "Luxon", "Exandria's Moons", "Alyxian", "Jewel of Three Prayers", "Perigee", "Sehanine"]
+  },
 
   // ----- Sessions -----
   {
@@ -63,6 +77,29 @@ const SITE_PAGES = [
     section: "Party",
     summary: "A water genasi paladin who hears a drowning voice in her dreams and means to answer it.",
     tags: ["Player Character", "Paladin"]
+  },
+
+  // ----- Maps (point at the Maps page; tags make them browsable) -----
+  {
+    title: "The Known Realms of Exandria",
+    url: "maps.html",
+    section: "Maps",
+    summary: "The full world map — Wildemount, Marquet, and the continents beyond.",
+    tags: ["Exandria"]
+  },
+  {
+    title: "The Continent of Wildemount",
+    url: "maps.html",
+    section: "Maps",
+    summary: "The eastern continent where the campaign begins, from the Menagerie Coast to the Emerald Gulch.",
+    tags: ["Xhorhas", "Jigow", "Bazzoxan", "Rosohna"]
+  },
+  {
+    title: "Wildemount — The Xhorhas Region",
+    url: "maps.html",
+    section: "Maps",
+    summary: "A close map of Xhorhas and the Emerald Gulch: Jigow, Bazzoxan, and Rosohna.",
+    tags: ["Jigow", "Bazzoxan", "Rosohna"]
   },
 
   // ----- Section pages (so search can find them too; usually no tags) -----

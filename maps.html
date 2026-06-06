@@ -44,11 +44,43 @@
       <!--
         TO ADD A MAP OR HANDOUT:
         1. Put the image file in the  maps  folder (e.g. maps/jigow.jpg).
-        2. Copy one <figure> block below and change the two file names and the caption.
+        2. Copy one <figure> block below and change the file name, caption, and tags.
+        3. (Optional) add a matching entry in assets/site-data.js so it shows up
+           in search and on the Tags page.
       -->
       <figure>
-        <a href="maps/map-exandria.svg"><img src="maps/map-exandria.svg" alt="Map of Exandria — Wildemount and Marquet"></a>
-        <figcaption><strong>Exandria &mdash; The Known World</strong> &mdash; the continents of Wildemount and Marquet, divided by the Lucidian Ocean and the trench beneath it. Click to enlarge. <em>(Sample placeholder image &mdash; drop your own map here.)</em></figcaption>
+        <a href="maps/exandria-world-map.jpg" data-zoom-src="maps/exandria-world-map-large.jpg?v=2"><img src="maps/exandria-world-map.jpg" alt="The Known Realms of Exandria — full world map"></a>
+        <figcaption>
+          <strong>The Known Realms of Exandria</strong> &mdash; the whole world. Most of our campaign plays out on two of its continents, Wildemount and Marquet. <em>(A detailed Marquet map will be added later in the campaign.)</em> Click to enlarge.
+          <span class="tags">
+            <a class="tag" href="tags.html?tag=Exandria">Exandria</a>
+          </span>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a href="maps/wildemount-continent.jpg"><img src="maps/wildemount-continent.jpg" alt="Map of the Continent of Wildemount"></a>
+        <figcaption>
+          <strong>The Continent of Wildemount</strong> &mdash; the eastern continent where our story begins, from the Menagerie Coast and the Dwendalian Empire to the Greying Wildlands and the Emerald Gulch. Click to enlarge.
+          <span class="tags">
+            <a class="tag" href="tags.html?tag=Xhorhas">Xhorhas</a>
+            <a class="tag" href="tags.html?tag=Jigow">Jigow</a>
+            <a class="tag" href="tags.html?tag=Bazzoxan">Bazzoxan</a>
+            <a class="tag" href="tags.html?tag=Rosohna">Rosohna</a>
+          </span>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a href="maps/xhorhas-region.jpg"><img src="maps/xhorhas-region.jpg" alt="Map of the Xhorhas region of Wildemount — the Emerald Gulch"></a>
+        <figcaption>
+          <strong>Wildemount &mdash; The Xhorhas Region</strong> &mdash; a closer look at Xhorhas and the Emerald Gulch, including Jigow (where the party first meets), the shadowed fortress-town of Bazzoxan, and the Kryn capital of Rosohna. Click to enlarge.
+          <span class="tags">
+            <a class="tag" href="tags.html?tag=Jigow">Jigow</a>
+            <a class="tag" href="tags.html?tag=Bazzoxan">Bazzoxan</a>
+            <a class="tag" href="tags.html?tag=Rosohna">Rosohna</a>
+          </span>
+        </figcaption>
       </figure>
 
     </div>
@@ -64,5 +96,6 @@
   <script>var SITE_BASE = "";</script>
   <script src="assets/site-data.js"></script>
   <script src="assets/site.js"></script>
+  <script src="assets/lightbox.js?v=3"></script>
 </body>
 </html>

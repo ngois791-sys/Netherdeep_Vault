@@ -10,3 +10,6 @@ Desktop.ini
 # Temp files from site building (safe to ignore)
 _reference_*
 _ref_*
+
+# Source material kept locally but not published to the site
+Files to translate/
