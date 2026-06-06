@@ -7,9 +7,12 @@ Desktop.ini
 # Editor / tooling local state
 .claude/settings.local.json
 
-# Temp files from site building (safe to ignore)
+# Temp files from site building / git helpers (safe to ignore)
 _reference_*
 _ref_*
+_commitmsg.txt
+_prbody.md
+_cq.txt
 
 # Source material kept locally but not published to the site
 Files to translate/
