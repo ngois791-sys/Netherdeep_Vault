@@ -53,13 +53,13 @@ const SITE_PAGES = [
   },
 
   // ----- Sessions -----
-  {
-    title: "Session 1 — The Festival of Merit",
-    url: "sessions/session-01-festival.html",
-    section: "Sessions",
-    summary: "The party meets in Jigow during the festival, wins a strange contest, and dives the Emerald Grotto.",
-    tags: ["Session", "Jigow"]
-  },
+  { title: "Session 3", url: "sessions/session-03.html", section: "Sessions", summary: "Session notes — played April 13, 2025.",    tags: ["Session"] },
+  { title: "Session 4", url: "sessions/session-04.html", section: "Sessions", summary: "Session notes — played May 11, 2025.",      tags: ["Session"] },
+  { title: "Session 5", url: "sessions/session-05.html", section: "Sessions", summary: "Session notes — played November 9, 2025.",  tags: ["Session"] },
+  { title: "Session 6", url: "sessions/session-06.html", section: "Sessions", summary: "Session notes — played January 25, 2026.",  tags: ["Session"] },
+  { title: "Session 7", url: "sessions/session-07.html", section: "Sessions", summary: "Session notes — played February 22, 2026.", tags: ["Session"] },
+  { title: "Session 8", url: "sessions/session-08.html", section: "Sessions", summary: "Session notes — played April 19, 2026.",    tags: ["Session"] },
+  { title: "Session 9", url: "sessions/session-09.html", section: "Sessions", summary: "Session notes — played May 17, 2026.",      tags: ["Session"] },
 
   // ----- NPCs -----
   {
