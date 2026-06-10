@@ -31,11 +31,11 @@ const SITE_PAGES = [
     tags: ["History", "The Netherdeep"]
   },
   {
-    title: "Powers of Exandria",
+    title: "Important Factions",
     url: "lore/factions.html",
     section: "Lore",
-    summary: "The factions racing for the Netherdeep's secrets — their crests, seats of power, and known agents.",
-    tags: ["Factions", "Ank'Harel"]
+    summary: "The powers and groups shaping the party's journey — the Kryn Dynasty, the Luxon, the Cobalt Soul, and more.",
+    tags: ["Factions", "Allegiance of Allsight", "Aloysia", "Bazzoxan", "Consortium of the Vermillion Dream", "Dermot Wurder", "Kryn Dynasty", "Luxon", "Marquet", "Prolix", "Question", "Rosohna", "Strange Mineral", "Verin Theyless"]
   },
   {
     title: "Locations of Interest",
@@ -51,6 +51,13 @@ const SITE_PAGES = [
     summary: "The making of Exandria — the Prime Deities and Betrayer Gods, the Calamity, the Divergence, and the divine relics and moons tied to them.",
     tags: ["Prime Deities", "Betrayer Gods", "Calamity", "Divergence", "Wastes of Xhorhas", "Barbed Fields", "Bazzoxan", "Luxon", "Exandria's Moons", "Alyxian", "Jewel of Three Prayers", "Perigee", "Sehanine"]
   },
+  {
+    title: "Visions & Dreams",
+    url: "lore/visions.html",
+    section: "Lore",
+    summary: "The party's visions and dreams — Alyxian's pleas from the deep, the shared nightmares, and the fall of the winged champion Perigee.",
+    tags: ["Visions", "Alyxian", "Perigee", "Sehanine", "Jewel of Three Prayers", "Bazzoxan", "Ruidus"]
+  },
 
   // ----- Sessions -----
   { title: "Session 3", url: "sessions/session-03.html", section: "Sessions", summary: "Session notes — played April 13, 2025.",    tags: ["Session"] },
@@ -63,21 +70,18 @@ const SITE_PAGES = [
 
   // ----- NPCs -----
   {
-    title: "Maaya Two-Snake",
-    url: "npcs/maaya-two-snake.html",
+    title: "Important People",
+    url: "npcs.html",
     section: "NPCs",
-    summary: "The Jigow tide-broker who pointed the party toward the grotto. Knows more than she lets on.",
-    tags: ["NPC", "Jigow"]
+    summary: "Everyone the party has met and thought worth remembering — allies, rivals, and the rest.",
+    tags: ["Allegiance of Allsight", "Aloysia", "Alyxian", "Ayo Jabe", "Bazzoxan", "Consortium of the Vermillion Dream", "Dermot Wurder", "Galsariad Ardyth", "Jewel of Three Prayers", "Jigow", "Kryn Dynasty", "Library of the Cobalt Soul", "Luxon", "Maggie Keeneyes", "Prime Deities", "Prolix", "Rosohna", "Strange Mineral", "Visions"]
   },
 
   // ----- Party -----
-  {
-    title: "Vasha Tidemark",
-    url: "characters/vasha-tidemark.html",
-    section: "Party",
-    summary: "A water genasi paladin who hears a drowning voice in her dreams and means to answer it.",
-    tags: ["Player Character", "Paladin"]
-  },
+  { title: "Ody",    url: "characters/ody.html",    section: "Party", summary: "Party member.", tags: ["Player Character"] },
+  { title: "Torden", url: "characters/torden.html", section: "Party", summary: "Party member.", tags: ["Player Character"] },
+  { title: "Sirius", url: "characters/sirius.html", section: "Party", summary: "Party member.", tags: ["Player Character"] },
+  { title: "Phoebe", url: "characters/phoebe.html", section: "Party", summary: "Party member.", tags: ["Player Character"] },
 
   // ----- Maps (point at the Maps page; tags make them browsable) -----
   {
@@ -105,7 +109,6 @@ const SITE_PAGES = [
   // ----- Section pages (so search can find them too; usually no tags) -----
   { title: "Lore & Wiki",     url: "lore.html",       section: "Section", summary: "The gods, the Calamity, and the powers that shape Exandria.",       tags: [] },
   { title: "Session Recaps",  url: "sessions.html",   section: "Section", summary: "The story so far, told one session at a time.",                   tags: [] },
-  { title: "NPCs",            url: "npcs.html",        section: "Section", summary: "Everyone the party has met and thought worth remembering.",        tags: [] },
   { title: "The Party",       url: "characters.html",  section: "Section", summary: "The adventurers whose tale this is.",                              tags: [] },
   { title: "Timeline",        url: "events.html",      section: "Section", summary: "The important events, in the order they came to pass.",            tags: [] },
   { title: "Maps & Handouts", url: "maps.html",        section: "Section", summary: "Maps, letters, and other things the party has gathered.",          tags: [] },

@@ -222,6 +222,19 @@ h1, h2, h3, h4 {
   .dl-btn { width: 100%; text-align: center; order: 3; }
 }
 
+/* ---------- Section separator (full-width red rule with diamonds) ---------- */
+.vision-sep {
+  position: relative; height: 0; margin: 4.5rem 0;
+  border-top: 4px solid var(--red-2);
+  box-shadow: 0 0 18px rgba(226,66,90,.6);
+}
+.vision-sep span {
+  position: absolute; left: 50%; top: 0; transform: translate(-50%, -50%);
+  background: var(--bg); padding: 0 1.2rem;
+  color: var(--red-2); font-size: 1.5rem; letter-spacing: .35em;
+  text-shadow: 0 0 16px rgba(226,66,90,.8);
+}
+
 /* ---------- Image zoom lightbox ---------- */
 .gallery figure > a, a.zoomable { cursor: zoom-in; display: block; }
 .lb { position: fixed; inset: 0; z-index: 200; background: rgba(7,5,6,.94); backdrop-filter: blur(2px); }
