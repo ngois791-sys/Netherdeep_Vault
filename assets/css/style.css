@@ -222,6 +222,26 @@ h1, h2, h3, h4 {
   .dl-btn { width: 100%; text-align: center; order: 3; }
 }
 
+/* ---------- Previous / Next pager ---------- */
+.pager { display: flex; gap: 1rem; margin: 3rem 0 .5rem; padding-top: 1.6rem; border-top: 1px solid var(--rule); }
+.pager .pg-slot { flex: 1 1 0; min-width: 0; display: flex; }
+.pager .pg-right { justify-content: flex-end; }
+.pager a {
+  display: flex; flex-direction: column; gap: .25rem; width: 100%;
+  padding: .75rem 1.1rem; background: var(--bg-2); border: 1px solid var(--rule);
+  border-radius: 10px; box-shadow: var(--shadow);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.pager a:hover { border-color: var(--red); transform: translateY(-2px); text-decoration: none; }
+.pager .pg-right a { text-align: right; }
+.pager .pg-dir { font-family: "Cinzel", serif; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--silver); }
+.pager .pg-title { font-family: "Cinzel", serif; color: var(--red-2); font-size: 1rem; line-height: 1.25; }
+@media (max-width: 560px) {
+  .pager { flex-direction: column; gap: .7rem; }
+  .pager .pg-right { justify-content: stretch; }
+  .pager .pg-right a { text-align: left; }
+}
+
 /* ---------- Section separator (full-width red rule with diamonds) ---------- */
 .vision-sep {
   position: relative; height: 0; margin: 4.5rem 0;

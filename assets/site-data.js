@@ -59,14 +59,17 @@ const SITE_PAGES = [
     tags: ["Visions", "Alyxian", "Perigee", "Sehanine", "Jewel of Three Prayers", "Bazzoxan", "Ruidus"]
   },
 
-  // ----- Sessions -----
-  { title: "Session 3", url: "sessions/session-03.html", section: "Sessions", summary: "Session notes — played April 13, 2025.",    tags: ["Session"] },
-  { title: "Session 4", url: "sessions/session-04.html", section: "Sessions", summary: "Session notes — played May 11, 2025.",      tags: ["Session"] },
-  { title: "Session 5", url: "sessions/session-05.html", section: "Sessions", summary: "Session notes — played November 9, 2025.",  tags: ["Session"] },
-  { title: "Session 6", url: "sessions/session-06.html", section: "Sessions", summary: "Session notes — played January 25, 2026.",  tags: ["Session"] },
-  { title: "Session 7", url: "sessions/session-07.html", section: "Sessions", summary: "Session notes — played February 22, 2026.", tags: ["Session"] },
-  { title: "Session 8", url: "sessions/session-08.html", section: "Sessions", summary: "Session notes — played April 19, 2026.",    tags: ["Session"] },
+  // ----- Sessions (newest first, to match the Sessions index page) -----
+  //   NOTE: the order of pages WITHIN a section here also drives the
+  //   "‹ Previous / Next ›" buttons, so keep each section in the same order
+  //   its index page lists them.
   { title: "Session 9", url: "sessions/session-09.html", section: "Sessions", summary: "Session notes — played May 17, 2026.",      tags: ["Session"] },
+  { title: "Session 8", url: "sessions/session-08.html", section: "Sessions", summary: "Session notes — played April 19, 2026.",    tags: ["Session"] },
+  { title: "Session 7", url: "sessions/session-07.html", section: "Sessions", summary: "Session notes — played February 22, 2026.", tags: ["Session"] },
+  { title: "Session 6", url: "sessions/session-06.html", section: "Sessions", summary: "Session notes — played January 25, 2026.",  tags: ["Session"] },
+  { title: "Session 5", url: "sessions/session-05.html", section: "Sessions", summary: "Session notes — played November 9, 2025.",  tags: ["Session"] },
+  { title: "Session 4", url: "sessions/session-04.html", section: "Sessions", summary: "Session notes — played May 11, 2025.",      tags: ["Session"] },
+  { title: "Session 3", url: "sessions/session-03.html", section: "Sessions", summary: "Session notes — played April 13, 2025.",    tags: ["Session"] },
 
   // ----- NPCs -----
   {
